@@ -28,4 +28,31 @@ To run the executable, use the command:
 ./proj3.exe
 ```
 
+## Usage
+- Encoding a Message: To encode a message into an image, you need to specify the image file and the text message as input parameters to the program.
+
+- Decoding a Message: To decode a message from an image, specify the image file, and the program will display the hidden message.
+
+Note: Exact command usage and parameters can be found in the project documentation or by running the program with a help flag (e.g. `./proj3.exe --help`).
+
+## Dependencies
+- Ensure you have a C++ compiler installed (e.g., g++).
+- This project might rely on external libraries for image processing; refer to the Makefile for specifics.
+
+## Installation
+- Clone this repository to your local machine.
+- Navigate to the project directory.
+- Run make to build the project.
+- Execute the program with `./proj3.exe`.
+
+## Contributions
+Contributions to this project are welcome. Please fork this repository and create a pull request with your changes. Ensure that your code is clean and well-documented.
+
+## Submission Requirements
+For submission, you must include:
+
+- All header files (*.h).
+- All source files (*.cpp).
+- The UNIX Makefile.
+- A typescript file showing your program being built and executed with valgrind.
 
